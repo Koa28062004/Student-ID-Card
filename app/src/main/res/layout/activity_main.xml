@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="45dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="6"
+            android:rowCount="9"
+            android:paddingTop="10dp">
+
+                <!-- Header -->
+                <ImageView
+                    android:layout_width="143dp"
+                    android:layout_height="0dp"
+                    android:layout_rowSpan="3"
+                    android:layout_rowWeight="3"
+                    android:layout_columnSpan="2"
+                    android:layout_columnWeight="2"
+                    android:layout_gravity="start"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/logo" />
+
+                <!-- First Row -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="VIET NAM NATIONAL UNIVERSITY, HO CHI MINH CITY"
+                    android:layout_columnWeight="4"
+                    android:layout_rowWeight="1"
+                    android:layout_columnSpan="4"
+                    android:layout_rowSpan="1"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+
+                <!-- Second Row -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="UNIVERSITY OF SCIENCE"
+                    android:textStyle="bold"
+                    android:layout_columnWeight="4"
+                    android:layout_columnSpan="4"
+                    android:layout_rowSpan="1"
+                    android:gravity="center"
+                    android:textSize="20sp"/>
+
+                <!-- Third Row -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="STUDENT ID CARD"
+                    android:textStyle="bold"
+                    android:textColor="#ff0000"
+                    android:layout_columnWeight="4"
+                    android:layout_columnSpan="4"
+                    android:layout_rowSpan="1"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+
+                <!-- Body -->
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="0dp"
+                    android:layout_rowSpan="5"
+                    android:layout_rowWeight="5"
+                    android:layout_columnSpan="2"
+                    android:layout_columnWeight="2"
+                    android:layout_gravity="start"
+                    android:padding="0dp"
+                    android:src="@drawable/ava" />
+
+                <!-- Fourth Row -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="LUONG NGUYEN KHOA"
+                    android:textStyle="bold"
+                    android:layout_columnWeight="4"
+                    android:layout_columnSpan="4"
+                    android:layout_rowSpan="1"
+                    android:textSize="23sp"
+                    android:paddingLeft="10dp"/>
+
+                <!-- Fifth Row -->
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowSpan="1"
+                    android:layout_columnSpan="1"
+                    android:layout_columnWeight="2"
+                    android:paddingLeft="10dp"
+                    android:text="Date of Birth"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowSpan="1"
+                    android:layout_columnSpan="1"
+                    android:layout_columnWeight="2"
+                    android:text=": 28/06/2004"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:textStyle="bold"
+                    android:layout_columnWeight="1"
+                    android:layout_columnSpan="1"
+                    android:layout_rowSpan="1"
+                    android:gravity="end"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="22dp"
+                    android:layout_rowSpan="1"
+                    android:layout_columnSpan="1"
+                    android:layout_columnWeight="1"
+                    android:text=": 22125040"
+                    android:textSize="20sp" />
+
+                <!-- Sixth Row -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Faculty of"
+                    android:textStyle="bold"
+                    android:layout_columnWeight="1"
+                    android:layout_columnSpan="1"
+                    android:layout_rowSpan="1"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=": Information Technology"
+                    android:layout_columnWeight="3"
+                    android:layout_columnSpan="3"
+                    android:layout_rowSpan="1"
+                    android:textSize="20sp"/>
+
+                <!-- Seventh Row -->
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Degree"
+                    android:textStyle="bold"
+                    android:layout_columnWeight="1"
+                    android:layout_columnSpan="1"
+                    android:layout_rowSpan="1"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=": Bachelor"
+                    android:layout_columnWeight="3"
+                    android:layout_columnSpan="3"
+                    android:layout_rowSpan="1"
+                    android:textSize="20sp"/>
+
+                <!-- Eighth Row -->
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
+                    android:layout_rowSpan="1"
+                    android:layout_rowWeight="2"
+                    android:layout_columnSpan="4"
+                    android:layout_columnWeight="4"
+                    android:layout_gravity="start"
+                    android:src="@drawable/barcode"
+                    android:scaleType="fitXY"/>
+
+                <!-- Ninth Row -->
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowSpan="1"
+                    android:layout_columnSpan="1"
+                    android:layout_columnWeight="1"
+                    android:text="Expires"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowSpan="1"
+                    android:layout_columnSpan="5"
+                    android:layout_columnWeight="5"
+                    android:text=": 2022-2025"
+                    android:textSize="20sp" />
+        </GridLayout>
+</LinearLayout>
